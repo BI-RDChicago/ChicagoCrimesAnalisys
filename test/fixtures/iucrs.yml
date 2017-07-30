@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  iucrcode: MyString
+  primary_description: MyString
+  secondary_description: MyString
+
+two:
+  iucrcode: MyString
+  primary_description: MyString
+  secondary_description: MyString

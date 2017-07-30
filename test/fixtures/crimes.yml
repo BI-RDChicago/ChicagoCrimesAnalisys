@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  IdSource: 1
+  Date: 2017-07-26 00:33:06
+  LocationDescription: MyString
+  Arrest: false
+  Domestic: false
+  CommunityArea: MyString
+
+two:
+  IdSource: 1
+  Date: 2017-07-26 00:33:06
+  LocationDescription: MyString
+  Arrest: false
+  Domestic: false
+  CommunityArea: MyString

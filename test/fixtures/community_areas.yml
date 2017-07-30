@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  IdSource: 1
+  Description: 
+
+two:
+  IdSource: 1
+  Description: 
