@@ -437,7 +437,7 @@
   <notepads>
   </notepads>
   <connection>
-    <name>ChicagoCrimes_development</name>
+    <name>ChicagoCrimesAnalisys</name>
     <server>localhost</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
@@ -810,7 +810,7 @@
       <method>none</method>
       <schema_name />
     </partitioning>
-    <connection>ChicagoCrimes_development</connection>
+    <connection>ChicagoCrimesAnalisys</connection>
     <cache>Y</cache>
     <cache_load_all>Y</cache_load_all>
     <cache_size>0</cache_size>
@@ -1000,7 +1000,7 @@
       <method>none</method>
       <schema_name />
     </partitioning>
-    <connection>ChicagoCrimes_development</connection>
+    <connection>ChicagoCrimesAnalisys</connection>
     <schema />
     <table>Crimes</table>
     <commit>10000</commit>
@@ -1155,7 +1155,7 @@
       <method>none</method>
       <schema_name />
     </partitioning>
-    <connection>ChicagoCrimes_development</connection>
+    <connection>ChicagoCrimesAnalisys</connection>
     <cache>Y</cache>
     <cache_load_all>Y</cache_load_all>
     <cache_size>0</cache_size>
@@ -1226,7 +1226,7 @@
       <method>none</method>
       <schema_name />
     </partitioning>
-    <filename>C:\Users\Avell\Desktop\TCC Ruann\Bla\Sources\Crimes_-_2001_to_present.csv</filename>
+    <filename>${CrimesMainFile }</filename>
     <filename_field />
     <rownum_field />
     <include_filename>N</include_filename>
@@ -1705,7 +1705,7 @@
       <method>none</method>
       <schema_name />
     </partitioning>
-    <connection>ChicagoCrimes_development</connection>
+    <connection>ChicagoCrimesAnalisys</connection>
     <schema />
     <table>ErrorLog</table>
     <commit>10000</commit>
@@ -1762,7 +1762,7 @@
     <fileNameField />
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>C:\Users\Avell\Desktop\TCC Ruann\Bla\Sources\ErrorOutput</name>
+      <name>~\ErrorOutput</name>
       <is_command>N</is_command>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
